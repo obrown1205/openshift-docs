@@ -21,9 +21,9 @@ include::snippets/rosa-classic-support.adoc[]
 endif::openshift-rosa[]
 
 // This module does not apply to OSD/ROSA
-ifndef::openshift-dedicated,openshift-rosa[]
-include::modules/architecture-machine-config-pools.adoc[leveloffset=+1]
-endif::openshift-dedicated,openshift-rosa[]
+//ifndef::openshift-dedicated,openshift-rosa[]
+//include::modules/architecture-machine-config-pools.adoc[leveloffset=+1]
+//endif::openshift-dedicated,openshift-rosa[]
 
 ifndef::openshift-dedicated,openshift-rosa[]
 [role="_additional-resources"]
